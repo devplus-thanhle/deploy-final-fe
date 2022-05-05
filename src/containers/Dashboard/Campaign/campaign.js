@@ -52,27 +52,27 @@ const columns = [
     filters: [
       {
         text: "Intern",
-        value: "Intern",
+        value: "intern",
       },
       {
         text: "Junior",
-        value: "Junior",
+        value: "junior",
       },
       {
         text: "Senior",
-        value: "Senior",
+        value: "senior",
       },
       {
         text: "Fresher",
-        value: "Fresher",
+        value: "fresher",
       },
       {
         text: "Middle",
-        value: "Middle",
+        value: "middle",
       },
       {
         text: "HR",
-        value: "HR",
+        value: "hr",
       },
     ],
     onFilter: (value, record) => record.position.indexOf(value) === 0,
